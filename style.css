@@ -1,0 +1,56 @@
+.blue{
+    background-color:blue;
+    border:3px solid black;
+    
+    border-radius:15px;
+    width:200px;
+    height:200px;
+    
+}
+.green{
+    background-color:green;
+    border:3px solid black;
+    border-radius:15px;
+    width:200px;
+    height:200px;
+}
+.yellow{
+    background-color:yellow;
+    border:3px solid black;
+    border-radius:15px;
+    width:200px;
+    height:200px;
+}
+.red{
+    background-color:red;
+    border:3px solid black;
+    border-radius:15px;
+    width:200px;
+    height:200px;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin-top:50px;   
+    gap:20px;          
+}
+
+.topRow,.btmRow{
+    display:flex;
+    gap:20px;          
+
+}
+.blue:hover,.red:hover,.yellow:hover,.green:hover{
+    cursor:pointer;
+}
+.gameName{
+    text-align:center;
+}
+.gameName:hover{
+    color:red;  /* try to make it among the 4 colors using array js or smtg */
+}
+.score{
+    text-align:center;
+}
